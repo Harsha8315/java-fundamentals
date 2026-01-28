@@ -47,12 +47,12 @@ public class SwitchProductPrice {
         System.out.println("State Tax Amount : " + stateTaxAmount);
         System.out.println("Central Tax Amount : " + centralTaxAmount);
         System.out.println("Final Product Price : " + finalProductPrice);
-       // System.out.println("Enter Quamtity : ");
-        //quantity = sc.nextInt();
-       // finalBill = (float) quantity * finalProductPrice;
-        //totalSaved = (float) quantity * discountAmount;
-        //System.out.println("FinalBill : " + finalBill);
-        //System.out.println("TotalSaved : " + totalSaved);
+        System.out.println("Enter Quamtity : ");
+        quantity = sc.nextInt();
+        finalBill = (float) quantity * finalProductPrice;
+        totalSaved = (float) quantity * discountAmount;
+        System.out.println("FinalBill : " + finalBill);
+        System.out.println("TotalSaved : " + totalSaved);
         sc.close();
     }
 }
